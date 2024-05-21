@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Add to Cart</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="/assets/android-chrome-192x192.png">
+
+    </head>
+    <body>
+        <div class="container">
+            <img src="/aac829889e740dbeece2cf04649f2a46.jpg">
+            <input type="text" id="input-field" placeholder="Bread">
+            <button id="add-button">Add to cart</button>
+            <ul id="shopping-list"></ul>
+        </div>
+
+
+        <script src="index.js" type="module"></script>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            const firebaseConfig = {
+              apiKey: "AIzaSyDMRBiWX-CMR0rIoWqx0taZsjz1VQR0P70",
+              authDomain: "grocerry-ccac0.firebaseapp.com",
+              databaseURL: "https://grocerry-ccac0-default-rtdb.asia-southeast1.firebasedatabase.app",
+              projectId: "grocerry-ccac0",
+              storageBucket: "grocerry-ccac0.appspot.com",
+              messagingSenderId: "651303657423",
+              appId: "1:651303657423:web:f37ddc47eac0fe27cdbcba"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+          </script>
+
+    </body>
+</html>
